@@ -44,14 +44,14 @@ const Works = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>My work</p>
-      <h2 className={styles.sectionHeadText}>Projects.</h2>
+      <p className={styles.sectionSubText}>Il mio lavoro</p>
+      <h2 className={styles.sectionHeadText}>Progetti.</h2>
     </motion.div>
 
     <div className='w-full flex'>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading[30px]'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque ipsam, dolor aspernatur aperiam veritatis adipisci harum velit, labore illum laboriosam, expedita officiis molestiae tempore reprehenderit qui eligendi nulla necessitatibus.
-        Doloribus voluptas facilis ea exercitationem expedita ex ducimus facere atque, doloremque consequatur saepe perferendis! Nisi dolor optio necessitatibus incidunt odit eum exercitationem dicta? Quisquam commodi sit, nostrum fugit obcaecati aliquid!
+      Dal 2020, dedico la mia professione alla creazione di siti web, principalmente attraverso WordPress. <br />
+      Le mie competenze tecniche abbracciano linguaggi chiave come PHP, JavaScript, HTML e CSS. Attualmente, per rimanere al passo con le innovazioni del settore, sto approfondendo i framework React e Next.js. Con un approccio formale e meticoloso, mi impegno costantemente a fornire soluzioni digitali di alto livello per soddisfare le esigenze specifiche di ogni cliente.
       </motion.p>
     </div>
 

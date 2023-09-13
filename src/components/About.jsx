@@ -30,12 +30,11 @@ const About = () => {
   return (
     <>
       <motion.div variant={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <p className={styles.sectionHeadText}>Overview.</p>
+        <p className={styles.sectionSubText}>Intro</p>
+        <p className={styles.sectionHeadText}>Chi sono.</p>
       </motion.div>
       <motion.p variant={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quibusdam. Excepturi minima beatae porro. Asperiores blanditiis, voluptatum qui esse natus soluta laudantium repudiandae aliquid quam! Temporibus id cupiditate expedita delectus!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quibusdam. Excepturi minima beatae porro. Asperiores blanditiis, voluptatum qui esse natus soluta laudantium repudiandae aliquid quam! Temporibus id cupiditate expedita delectus!
+      Sono uno sviluppatore web specializzato nella piattaforma CMS WordPress, con competenze  nella progettazione di temi custom. La mia formazione ha inizio con un corso di web developer full stack presso l'istituto Volta, periodo durante il quale ho acquisito competenze sia in ambito frontend che backend.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
