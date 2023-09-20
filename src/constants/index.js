@@ -28,15 +28,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Chi sono",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Il mio lavoro",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contatti",
     },
   ];
   
@@ -116,39 +116,39 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Corso di formazione in Web Marketing",
+      company_name: "Agenzia formativa Dante Alighieri",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Ottobre 2019 - Agosto 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Nozioni base di Economia Aziendale, Psicologia e Comunicazione.",
+        "Nozioni di Web Marketing.",
+        "Nozioni di Web Design.",
+        "Nozioni di Ottimizzazione di un sito web in chiave SEO (Search Engine Optimization).",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "Agenzia Web Dr-One",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Agosto 2020 - Ottobre 2021",
+      points: [
+        "Apprendistato presso agenzia web Dr-One.",
+        "Realizzavo siti web in Wordpress per diverse tipologie di clienti.",
+        "Ottimizzavo il sito web una volta concluso sia in chiave SEO che di perfomance.",
+        "Mi occupavo della parte creativa del sito, dalla comunicazione con il cliente per capire gli obiettivi commerciali e di design fino allo sviluppo e alla pubblicazione.",
+      ],
+    },
+    {
+      title: "Corso di Web Developer Full Stack",
+      company_name: "Istituto Volta",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Marzo 2022 - Marzo 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Corso di formazione sui seguenti linguaggi di programmazione: HTML, CSS, JAVASCRIPT E PHP.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
