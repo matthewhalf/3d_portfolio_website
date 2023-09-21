@@ -4,25 +4,20 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    spotifyapp,
+    eiscafe,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -73,16 +68,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -97,10 +84,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,17 +91,12 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
       title: "Corso di formazione in Web Marketing",
       company_name: "Agenzia formativa Dante Alighieri",
-      icon: starbucks,
       iconBg: "#383E56",
       date: "Ottobre 2019 - Agosto 2020",
       points: [
@@ -131,7 +109,6 @@ import {
     {
       title: "Web Developer",
       company_name: "Agenzia Web Dr-One",
-      icon: tesla,
       iconBg: "#E6DEDD",
       date: "Agosto 2020 - Ottobre 2021",
       points: [
@@ -144,27 +121,24 @@ import {
     {
       title: "Corso di Web Developer Full Stack",
       company_name: "Istituto Volta",
-      icon: shopify,
       iconBg: "#383E56",
       date: "Marzo 2022 - Marzo 2023",
       points: [
         "Corso di formazione sui seguenti linguaggi di programmazione: HTML, CSS, JAVASCRIPT E PHP.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lezioni approfondite di php e mysql per sviluppare il backend di una applicazione.",
+        "Lezioni di approfondite del linguaggio Javascript per aggiungere interattività al sito.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Web Developer",
+      company_name: "Pianoweb",
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aprile 2022 - Presente",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Sviluppo siti web in Wordpress per diverse tipologie di clienti",
+        "Mi occupo della creazione del sito a 360 gradi, dalla parte creativa a quella di sviluppo.",
+        "Ho acquisito competenze nello sviluppo di plugin e temi custom per Wordpress.",
+        "Infine mi occupo dell'ottimizzazione del sito sia in chiave SEO che di perfomance. ",
       ],
     },
   ];
@@ -198,66 +172,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wordpress Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Sito web sviluppato utilizzando il CMS Wordpress e il builder Elementor per una gelateria che si trova in Germania.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: eiscafe,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Spotify API App",
+      description:
+        "Applicazione web sviluppata utilizzando l'API di Spotify che permette l'autenticazione nel sito tramite il proprio profilo, dopo la quale sarà possibile vedere quali sono gli artisti e le canzoni che più ascolti e inoltre sarà possibile cercare gli album che hai ascoltato e aggiungerli al proprio profilo.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "next.js",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: spotifyapp,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "3D Portfolio Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Sito web creato in React utilizzando Three js per aggiungere modelli 3D e framer motion per aggiungere animazioni. Il mio sito mostra le mie competenze e esperienze come sviluppatore web. Inoltre ho implementato Email JS per creare un form di contatto.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "framermotion",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      image: portfolio,
       source_code_link: "https://github.com/",
     },
   ];
