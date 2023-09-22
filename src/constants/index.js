@@ -12,9 +12,6 @@ import {
     mongodb,
     git,
     figma,
-    carrent,
-    jobit,
-    tripguide,
     spotifyapp,
     eiscafe,
     portfolio
@@ -97,7 +94,7 @@ import {
     {
       title: "Corso di formazione in Web Marketing",
       company_name: "Agenzia formativa Dante Alighieri",
-      iconBg: "#383E56",
+      iconBg: "#05080B",
       date: "Ottobre 2019 - Agosto 2020",
       points: [
         "Nozioni base di Economia Aziendale, Psicologia e Comunicazione.",
@@ -109,7 +106,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Agenzia Web Dr-One",
-      iconBg: "#E6DEDD",
+      iconBg: "#05080B",
       date: "Agosto 2020 - Ottobre 2021",
       points: [
         "Apprendistato presso agenzia web Dr-One.",
@@ -121,7 +118,7 @@ import {
     {
       title: "Corso di Web Developer Full Stack",
       company_name: "Istituto Volta",
-      iconBg: "#383E56",
+      iconBg: "#05080B",
       date: "Marzo 2022 - Marzo 2023",
       points: [
         "Corso di formazione sui seguenti linguaggi di programmazione: HTML, CSS, JAVASCRIPT E PHP.",
@@ -132,7 +129,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Pianoweb",
-      iconBg: "#E6DEDD",
+      iconBg: "#05080B",
       date: "Aprile 2022 - Presente",
       points: [
         "Sviluppo siti web in Wordpress per diverse tipologie di clienti",
@@ -174,7 +171,7 @@ import {
     {
       name: "Wordpress Website",
       description:
-        "Sito web sviluppato utilizzando il CMS Wordpress e il builder Elementor per una gelateria che si trova in Germania.",
+        "Sito web sviluppato utilizzando il CMS Wordpress e il builder Elementor per una gelateria che si trova in Germania.Ottimizzazione del sito in chiave Seo e perfomance migliorate attraverso plugin di cache",
       tags: [
         {
           name: "wordpress",

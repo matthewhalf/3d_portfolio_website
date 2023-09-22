@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
-      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl '>
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className='flex-[0.75] bg-gradient-to-b from-black to-slate-950 p-8 rounded-2xl '>
         <p className={styles.sectionSubText}>Contatti</p>
         <h3 className={styles.sectionHeadText}>Contattami.</h3>
 
